@@ -35,6 +35,7 @@ case "$1" in
         ;;
 esac
 
+cd ".."
 for repo in "${!selected_branches[@]}"; do
   if [ -d "$repo" ]; then
     echo "Switching $repo to ${selected_branches[$repo]}"
