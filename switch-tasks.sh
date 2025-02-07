@@ -2,19 +2,19 @@
 # Fetches latest branches from remote and switches to them. Discards local changes on that branch
 
 declare -A gref_branches=(
-    ["front_personal"]="test2"
+    ["front_personal"]="feat-invitation-page"
     ["front_auth"]="test2"
     ["server_auth"]="test2"
     ["server_file"]="test2"
     ["server_personal"]="test2"
-    ["server_platform"]="test2"
+    ["server_platform"]="feat-email-invite"
     ["server_trade"]="test2"
     ["server_socket"]="test2"
     ["server_queue"]="test2"
 )
 
 declare -A denis_branches=(
-    ["front_personal"]="test2"
+    ["front_personal"]="feat-bid-submission"
     ["front_auth"]="test2"
     ["server_auth"]="test2"
     ["server_file"]="test2"
